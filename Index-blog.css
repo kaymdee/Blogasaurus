@@ -1,0 +1,180 @@
+/*Coral, Turquoise*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header{
+    background-image: url(http://www.textures4photoshop.com/tex/thumbs/low-poly-geometric-abstract-white-background-1267.jpg);
+/*    height: 100vh;*/
+    background-size: cover;
+    background-position: center;
+}
+
+#front-graphic{
+  height: auto;
+  top:-20px;
+  bottom:0;
+  object-fit: fill;
+  position: inherit;
+  max-width: 100%;
+
+
+}
+
+.center {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.center h1{
+  font-size: 100px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  overflow: visible;
+  object-fit: fill;
+}
+/*
+dark green: 2dc248
+medium green: 24d444
+light green: 2cdb4c
+*/
+.center_text {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 27px;
+  color: #50d2d9;
+  object-fit: fill;
+  border: 1px solid #fff;
+  background-color: white;
+  transition: 0.3s ease;
+
+}
+
+.center_text:hover {
+  color: white;
+  background-color: #50d2d9;
+}
+
+ul {
+  list-style-type: none;
+  /*margin-top: 25px;*/
+  padding: 0;
+  overflow: hidden;
+  background-color: #50d2d9;
+  float: right;
+}
+
+ul li{
+  display: inline-block;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  transition: 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: #50d2d9;
+}
+
+.buttons{
+  position: absolute;
+  top: 70%;
+  bottom: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #50d2d9;
+}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>OASIS</title>
+    <link rel="stylesheet" href="Index-blog.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:600|Darker+Grotesque|Hanalei|Raleway|Roboto+Mono&display=swap" rel="stylesheet">
+
+    <title>Khalaya M. Dean</title>
+
+  </head>
+  <body>
+    <header>
+      <div class="topBar">
+        <ul>
+          <li><a class="menu" href="#home">Home</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href= "Index-blog.html#home">
+              <img
+                id ="logo"
+                src= "https://i.imgflip.com/22modp.jpg"
+                alt = "Logo"
+              />
+            </a>
+          <li><a class="active" href="funStuff">Fun Stuff</a></li>
+      </ul>
+      <p>
+      </div>
+      <div class="center">
+        <h1>O A S I S</h1>
+      </div>
+      <div class="center_text" id = "center_text">Make the world you want to live in.</div>
+      <!--<div class="front-image" style="width:100%; position:relative;
+      top:0;bottom:0" id="front-graphic"> -->
+      <div class="front-image" id="front-graphic">
+        <img width="100%" src="/Users/cssi/blogasaurus/IMG_3119.JPG">
+
+
+      </div>
+      <div class="buttons">
+          <a href="#" class="btn">VIEW POSTS</a>
+          <a href="#" class="btn">LEARN MORE</a>
+      </div>
+      <h4>Who am I?</h4>
+
+      <p> A mildly akward, occasionally loud, often sociable (and healthily introverted)
+        aspiring Computer Scientist from Atlanta, GA. I love all things Tech, but I
+        don't know as much as I would like to for my field. I love to learn and work hard,
+        but also have some worthwile fun!
+      </p>
+
+    </header>
+  <!--  <script src="Index-blog.js"></script> -->
+  <script src="Index-blog.js"></script>
+  </body>
+</html>
+#ffef00
